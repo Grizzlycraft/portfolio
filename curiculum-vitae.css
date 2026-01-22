@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #121212; /* base */
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a; /* surface */
+    border-bottom: 1px solid #2a2a2a;
+}
+
+header h1 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* Main */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a0a0a0; /* secondary */
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: #1a1a1a; /* surface */
+    border-top: 1px solid #2a2a2a;
+    font-size: 0.85rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6f6f6f; /* muted */
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer span {
+    color: #444;
+}
