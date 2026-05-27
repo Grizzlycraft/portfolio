@@ -37,6 +37,12 @@ main {
     justify-content: center;
 }
 
+.item {
+    display: flex;
+    align-content: center;
+}
+
+/*
 nav {
     display: flex;
     flex-direction: column;
@@ -45,7 +51,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #a0a0a0; /* secondary */
+    color: #a0a0a0; ->secondary
     font-size: 1.1rem;
     transition: color 0.2s ease;
 }
@@ -53,6 +59,8 @@ nav a {
 nav a:hover {
     color: #ffffff;
 }
+*/
+
 
 /* Footer */
 footer {
