@@ -1,47 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
-    <link rel="stylesheet" href="projects.css">
-
-</head>
-<body>
-    <header>
-        <h1>Projects</h1>
-    </header>
-    <main>
-        <div class="item">
-            <a href="">image1</a>
-            <h2>E-todo</h2>
-        </div>
-        <div class="item">
-            <a href="">image2</a>
-            <h2>Hack N Juice</h2>
-        </div>
-        <div class="item">
-            <a href="">image3</a>
-            <h2>Tardis</h2>
-        </div>
-        <div class="item">
-            <a href="">image4</a>
-            <h2>Nextbuy</h2>
-        </div>
-        <div class="item">
-            <a href="">image5</a>
-            <h2>Video game design</h2>
-        </div>
-        <div class="item">
-            <a href="">image6</a>
-            <h2>Eliza</h2>
-        </div>
-    </main>
-    <footer>
-        <a href="https://github.com/Grizzlycraft" target="_blank">GitHub</a>
-        <span>•</span>
-        <a href="https://www.linkedin.com/in/wystan-marshall-solot-b588853a7/" target="_blank">LinkedIn</a>
-        <span>•</span>
-        <a href="mailto:wystanms@gmail.com">Email</a>
-    </footer>
-</body>
-</html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Projets de cybersécurité et expériences professionnelles — Wystan Marshall-Solot."><title>Projets | Wystan Marshall-Solot</title><link rel="stylesheet" href="projects.css"></head><body><header><div class="header-inner"><a class="brand" href="index.html">Wystan Marshall-Solot.</a><nav aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="projects.html" aria-current="page">Projets</a><a href="curiculum-vitae.html">Curriculum vitae</a></nav></div></header><main><div class="section-top"><div class="intro"><p class="eyebrow">Le portfolio / 01</p><h1>Projets &amp;<br>expériences.</h1><p>Comprendre les systèmes, leurs failles et les moyens de les protéger. Projets de formation, expérimentations personnelles et expérience professionnelle.</p></div><a class="text-link" href="mailto:wystanms@gmail.com">Échanger sur un stage ↗</a></div>
+<nav class="section-nav" aria-label="Dans cette page"><a href="#security">Sécurité</a><a href="#experience">Expérience</a><a href="#development">Développement</a><a href="#infrastructure">Infrastructure</a></nav>
+<section class="work-section" id="security" aria-labelledby="security-title"><div class="section-heading"><h2 id="security-title">Sécurité &amp; investigation</h2></div><div class="project-grid"><article class="project-card" id="exegol">
+  <div class="card-meta"><span>Cybersécurité</span></div>
+  <h3>Exegol</h3><p class="origin">Formation · Epitech</p>
+  <p class="card-description">Exercices de tests d’intrusion : reconnaissance, recherche de vulnérabilités et exploitation dans un environnement pédagogique.</p><ul class="tags" aria-label="Technologies"><li>Linux</li><li>Exegol</li><li>Nmap</li><li>Burp Suite</li><li>Python</li><li>SSH</li><li>Netcat</li></ul>
+  <details><summary>Détails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Pratique et méthodologie</h4><ul><li>Reconnaissance réseau et énumération des services</li><li>Recherche de vulnérabilités dans des applications web</li><li>Exercices d’exploitation et d’élévation de privilèges</li><li>Techniques d’accès à distance avec SSH et Netcat</li><li>Comptes rendus techniques documentant la démarche et les résultats</li></ul></div></details>
+</article><article class="project-card" id="codename">
+  <div class="card-meta"><span>Sécurité de l’IA</span></div>
+  <h3>CODENAME</h3><p class="origin">Formation · Epitech</p>
+  <p class="card-description">Étude de la sécurité de modèles de langage hébergés localement, autour de l’injection de prompts et de la protection des informations.</p><ul class="tags" aria-label="Technologies"><li>Ollama</li><li>Granite 3.1 MoE 3B</li><li>Modelfile</li><li>Injection de prompts</li></ul>
+  <details><summary>Détails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Étude de sécurité</h4><ul><li>Déploiement local de modèles avec Ollama</li><li>Configuration des instructions des modèles avec des Modelfiles</li><li>Tests des règles d’authentification et de protection des informations</li><li>Conception d’attaques par injection de prompts</li><li>Étude de l’usurpation de rôle, de la manipulation par exemples, de l’encodage et d’autres techniques de contournement</li></ul></div></details>
+</article><article class="project-card" id="sentinel-x">
+  <div class="card-meta"><span>Cybers&eacute;curit&eacute; d&eacute;fensive</span></div>
+  <h3>SENTINEL X</h3><p class="origin">Formation &middot; Epitech &middot; Projet en &eacute;quipe</p>
+  <p class="card-description">Supervision et d&eacute;tection d&rsquo;activit&eacute;s suspectes sur SupportDesk, une application web de gestion de tickets.</p><ul class="tags" aria-label="Technologies"><li>Docker</li><li>Prometheus</li><li>Grafana</li><li>Wazuh</li><li>Node.js</li></ul>
+  <details><summary>D&eacute;tails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Blue Team et d&eacute;tection</h4><p>Au sein de l&rsquo;&eacute;quipe, je me suis concentr&eacute; sur la d&eacute;tection et la s&eacute;curit&eacute; d&eacute;fensive.</p><ul><li>Analyse des journaux structur&eacute;s et mise en place de r&egrave;gles de d&eacute;tection avec Wazuh</li><li>Supervision des m&eacute;triques avec Prometheus et Grafana</li><li>&Eacute;tude de sc&eacute;narios d&rsquo;attaque, dont le brute force, la SSRF et les abus d&rsquo;export</li><li>Validation des alertes et analyse des faux positifs</li></ul></div></details>
+</article></div></section>
+<section class="work-section" id="experience" aria-labelledby="experience-title"><div class="section-heading"><h2 id="experience-title">Expérience professionnelle</h2></div><article class="project-card experience-card" id="ad-education"><div class="card-meta"><span>Développement / Expérience professionnelle</span></div><p class="eyebrow company">AD Education</p><h3>Application interne de création de CV</h3><p class="origin">Stage en développement · AD Education · Juin – juillet 2026 · 6 semaines</p><p class="card-description">Application interne de création et d’amélioration de CV, réalisée avec l’assistance d’outils d’IA pour répondre aux besoins des équipes de relations entreprises.</p><details><summary>Détails de l’expérience <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Contexte professionnel</h4><p>Recueil des besoins utilisateurs, adaptations selon leurs retours et collaboration avec mon tuteur et les chefs de projet. Cette expérience m’a appris à relier le développement d’une application à un besoin métier concret.</p></div></details></article></section>
+<section class="work-section" id="development" aria-labelledby="development-title"><div class="section-heading"><h2 id="development-title">Développement logiciel &amp; web</h2></div><div class="project-grid"><article class="project-card" id="persona">
+  <div class="card-meta"><span>Automatisation / Intelligence artificielle</span></div>
+  <h3>Persona</h3><p class="origin">Formation &middot; Epitech</p>
+  <p class="card-description">Agr&eacute;gateur d&rsquo;actualit&eacute;s pilot&eacute; par chatbot, qui envoie une newsletter personnalis&eacute;e selon les centres d&rsquo;int&eacute;r&ecirc;t de l&rsquo;utilisateur.</p><ul class="tags" aria-label="Technologies"><li>n8n</li><li>PostgreSQL</li><li>JavaScript</li><li>RSS</li><li>OpenAI</li><li>SMTP</li></ul>
+  <details><summary>D&eacute;tails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Automatisation et personnalisation</h4><ul><li>Inscription et connexion par code envoy&eacute; par courriel, avec gestion des sessions</li><li>Collecte de flux RSS, filtrage par centres d&rsquo;int&eacute;r&ecirc;t et suppression des doublons</li><li>Classement et r&eacute;sum&eacute; des articles par IA, avec solution de repli sans IA</li><li>Envoi de newsletters HTML selon la fr&eacute;quence, l&rsquo;heure et le fuseau choisis</li><li>Gestion des pr&eacute;f&eacute;rences, du d&eacute;sabonnement et de la suppression du compte</li></ul></div></details>
+</article><article class="project-card" id="lifeline">
+  <div class="card-meta"><span>Développement web</span></div>
+  <h3>Lifeline</h3><p class="origin">Formation · A-level Computer Science · 2025</p>
+  <p class="card-description">Plateforme de tutorat mettant en relation des élèves avec des élèves plus âgés pour les accompagner.</p><ul class="tags" aria-label="Technologies"><li>Python</li><li>Flask</li><li>Flask-Login</li><li>Flask-SQLAlchemy</li><li>SQLite</li><li>Bootstrap</li><li>HTML</li><li>CSS</li></ul>
+  <details><summary>Détails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Développement de l’application</h4><ul><li>Développement du backend avec Python et Flask</li><li>Authentification des utilisateurs et gestion des sessions</li><li>Intégration d’une base de données relationnelle</li><li>Interfaces web pour les élèves et les tuteurs</li></ul></div></details>
+</article><article class="project-card" id="zombie-survival">
+  <div class="card-meta"><span>Développement logiciel</span></div>
+  <h3>Jeu de survie 2D face aux zombies</h3><p class="origin">Formation · Epitech · Projet en binôme</p>
+  <p class="card-description">Jeu de survie en vue du dessus réalisé en binôme, associant programmation orientée objet en Java et interface graphique.</p><ul class="tags" aria-label="Technologies"><li>Java</li><li>JavaFX</li><li>Maven</li><li>Git</li></ul>
+  <details><summary>Détails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Axes de développement</h4><ul><li>Programmation orientée objet en Java</li><li>Développement d’une application graphique avec JavaFX</li><li>Systèmes d’inventaire et d’exploration</li><li>Conception du jeu en chapitres</li><li>Développement collaboratif avec Git</li></ul></div></details>
+</article></div></section><section class="work-section" id="infrastructure" aria-labelledby="infrastructure-title"><div class="section-heading"><h2 id="infrastructure-title">Infrastructure &amp; expérimentation</h2></div><article class="project-card" id="homelab">
+  <div class="card-meta"><span>Infrastructure / Homelab</span></div>
+  <h3>Serveur personnel polyvalent</h3><p class="origin">Projet personnel</p>
+  <p class="card-description">Projet de serveur polyvalent pour apprendre l’infrastructure, réaliser des tests de sécurité isolés et expérimenter en local.</p><p class="stack-pending">Choix des technologies à définir.</p>
+  <details><summary>Détails du projet <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>Usages envisagés</h4><p>Les éléments ci-dessous sont des usages envisagés.</p><ul><li>Virtualisation et tests de cybersécurité en environnement isolé</li><li>Hébergement de serveurs de jeux</li><li>Stockage en réseau (NAS)</li><li>Accès à distance</li><li>Expérimentation locale avec l’IA</li></ul></div></details>
+</article></section><div class="bottom-note"><p>Envie de découvrir mon parcours et mes compétences ?</p><a class="text-link" href="curiculum-vitae.html">Consulter mon CV →</a></div></main><footer><div class="footer-inner"><span>Wystan Marshall-Solot</span><div class="social-links"><a href="https://github.com/Grizzlycraft" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/wystan-marshall-solot-b588853a7/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:wystanms@gmail.com">Courriel ↗</a></div></div></footer></body></html>
